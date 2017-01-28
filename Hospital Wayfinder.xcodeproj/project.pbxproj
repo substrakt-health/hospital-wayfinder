@@ -15,8 +15,8 @@
 		4D570E941E3CB10800015EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D570E921E3CB10800015EFE /* LaunchScreen.storyboard */; };
 		4D570E9F1E3CB10800015EFE /* Hospital_WayfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570E9E1E3CB10800015EFE /* Hospital_WayfinderTests.swift */; };
 		4D570EAA1E3CB10800015EFE /* Hospital_WayfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570EA91E3CB10800015EFE /* Hospital_WayfinderUITests.swift */; };
-		4D570EB91E3CB1FA00015EFE /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570EB81E3CB1FA00015EFE /* Waypoint.swift */; };
-		4D570EBB1E3CB63500015EFE /* WaypointFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570EBA1E3CB63500015EFE /* WaypointFinder.swift */; };
+		4D6A95081E3CB365001B26F1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A95071E3CB365001B26F1 /* CameraViewController.swift */; };
+		4D6A950A1E3CBBD6001B26F1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		4D570EA51E3CB10800015EFE /* Hospital WayfinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hospital WayfinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D570EA91E3CB10800015EFE /* Hospital_WayfinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital_WayfinderUITests.swift; sourceTree = "<group>"; };
 		4D570EAB1E3CB10800015EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D570EB81E3CB1FA00015EFE /* Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
-		4D570EBA1E3CB63500015EFE /* WaypointFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointFinder.swift; sourceTree = "<group>"; };
+		4D6A95071E3CB365001B26F1 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ViewControllers/CameraViewController.swift; sourceTree = "<group>"; };
+		4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		4D570E851E3CB10800015EFE /* Hospital Wayfinder */ = {
 			isa = PBXGroup;
 			children = (
-				4D570EB71E3CB1DD00015EFE /* models */,
+				4D6A95041E3CB33B001B26F1 /* ViewControllers */,
 				4D570E861E3CB10800015EFE /* AppDelegate.swift */,
 				4D570E881E3CB10800015EFE /* ViewController.swift */,
 				4D570E8A1E3CB10800015EFE /* Main.storyboard */,
@@ -133,13 +133,13 @@
 			path = "Hospital WayfinderUITests";
 			sourceTree = "<group>";
 		};
-		4D570EB71E3CB1DD00015EFE /* models */ = {
+		4D6A95041E3CB33B001B26F1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4D570EB81E3CB1FA00015EFE /* Waypoint.swift */,
-				4D570EBA1E3CB63500015EFE /* WaypointFinder.swift */,
+				4D6A95071E3CB365001B26F1 /* CameraViewController.swift */,
+				4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */,
 			);
-			name = models;
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +210,7 @@
 				TargetAttributes = {
 					4D570E821E3CB10800015EFE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZNRLKX3AGV;
+						DevelopmentTeam = P6GN6NX7VT;
 						ProvisioningStyle = Automatic;
 					};
 					4D570E991E3CB10800015EFE = {
@@ -279,9 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D570EB91E3CB1FA00015EFE /* Waypoint.swift in Sources */,
-				4D570EBB1E3CB63500015EFE /* WaypointFinder.swift in Sources */,
+				4D6A950A1E3CBBD6001B26F1 /* ResultViewController.swift in Sources */,
 				4D570E8F1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodeld in Sources */,
+				4D6A95081E3CB365001B26F1 /* CameraViewController.swift in Sources */,
 				4D570E891E3CB10800015EFE /* ViewController.swift in Sources */,
 				4D570E871E3CB10800015EFE /* AppDelegate.swift in Sources */,
 			);
@@ -435,7 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				DEVELOPMENT_TEAM = P6GN6NX7VT;
 				INFOPLIST_FILE = "Hospital Wayfinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-Wayfinder";
@@ -448,7 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				DEVELOPMENT_TEAM = P6GN6NX7VT;
 				INFOPLIST_FILE = "Hospital Wayfinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-Wayfinder";
@@ -534,6 +534,7 @@
 				4D570EB01E3CB10800015EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D570EB11E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital WayfinderTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +543,7 @@
 				4D570EB31E3CB10800015EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D570EB41E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital WayfinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +552,7 @@
 				4D570EB61E3CB10800015EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
