@@ -11,11 +11,11 @@ import UIKit
 class ResultViewController: UIViewController {
 
     @IBOutlet weak var outputValueLabel: UILabel!
-    var outputValue:String?
+    var waypoint: Waypoint?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        outputValueLabel.text = outputValue
+        outputValueLabel.text = waypoint!.name
     }
 
     override func didReceiveMemoryWarning() {

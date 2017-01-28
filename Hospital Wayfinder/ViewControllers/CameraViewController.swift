@@ -69,7 +69,8 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "codeRead" {
             if let destinationVC = segue.destination as? ResultViewController {
-               destinationVC.outputValue = sender as? String
+                let waypoint = WaypointFinder.find(hex: (sender as? String)!)
+                destinationVC.waypoint = waypoint
             }
         }
     }
