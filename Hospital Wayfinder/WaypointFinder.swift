@@ -5,7 +5,6 @@
 //  Created by Sam Knight on 28/01/2017.
 //  Copyright © 2017 Sam Knight. All rights reserved.
 //
-
 import Foundation
 
 class WaypointFinder {
@@ -23,13 +22,13 @@ class WaypointFinder {
     class func find(hex: String) -> Waypoint? {
         
         var foundWaypoint: Waypoint?
-
+        
         for waypoint in waypoints {
             if (waypoint.hex == hex) {
                 foundWaypoint = waypoint
             }
         }
-
+        
         return foundWaypoint
     }
     
