@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D570E871E3CB10800015EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570E861E3CB10800015EFE /* AppDelegate.swift */; };
+		4D570E891E3CB10800015EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570E881E3CB10800015EFE /* ViewController.swift */; };
+		4D570E8C1E3CB10800015EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D570E8A1E3CB10800015EFE /* Main.storyboard */; };
+		4D570E8F1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D570E8D1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodeld */; };
+		4D570E911E3CB10800015EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D570E901E3CB10800015EFE /* Assets.xcassets */; };
+		4D570E941E3CB10800015EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D570E921E3CB10800015EFE /* LaunchScreen.storyboard */; };
+		4D570E9F1E3CB10800015EFE /* Hospital_WayfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570E9E1E3CB10800015EFE /* Hospital_WayfinderTests.swift */; };
+		4D570EAA1E3CB10800015EFE /* Hospital_WayfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570EA91E3CB10800015EFE /* Hospital_WayfinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D570E9B1E3CB10800015EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D570E7B1E3CB10800015EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D570E821E3CB10800015EFE;
+			remoteInfo = "Hospital Wayfinder";
+		};
+		4D570EA61E3CB10800015EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D570E7B1E3CB10800015EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D570E821E3CB10800015EFE;
+			remoteInfo = "Hospital Wayfinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D570E831E3CB10800015EFE /* Hospital Wayfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital Wayfinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D570E861E3CB10800015EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D570E881E3CB10800015EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D570E8B1E3CB10800015EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D570E8E1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hospital_Wayfinder.xcdatamodel; sourceTree = "<group>"; };
+		4D570E901E3CB10800015EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D570E931E3CB10800015EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D570E951E3CB10800015EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D570E9A1E3CB10800015EFE /* Hospital WayfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hospital WayfinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D570E9E1E3CB10800015EFE /* Hospital_WayfinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital_WayfinderTests.swift; sourceTree = "<group>"; };
+		4D570EA01E3CB10800015EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D570EA51E3CB10800015EFE /* Hospital WayfinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hospital WayfinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D570EA91E3CB10800015EFE /* Hospital_WayfinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital_WayfinderUITests.swift; sourceTree = "<group>"; };
+		4D570EAB1E3CB10800015EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D570E801E3CB10800015EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D570E971E3CB10800015EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D570EA21E3CB10800015EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D570E7A1E3CB10800015EFE = {
+			isa = PBXGroup;
+			children = (
+				4D570E851E3CB10800015EFE /* Hospital Wayfinder */,
+				4D570E9D1E3CB10800015EFE /* Hospital WayfinderTests */,
+				4D570EA81E3CB10800015EFE /* Hospital WayfinderUITests */,
+				4D570E841E3CB10800015EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D570E841E3CB10800015EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D570E831E3CB10800015EFE /* Hospital Wayfinder.app */,
+				4D570E9A1E3CB10800015EFE /* Hospital WayfinderTests.xctest */,
+				4D570EA51E3CB10800015EFE /* Hospital WayfinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D570E851E3CB10800015EFE /* Hospital Wayfinder */ = {
+			isa = PBXGroup;
+			children = (
+				4D570E861E3CB10800015EFE /* AppDelegate.swift */,
+				4D570E881E3CB10800015EFE /* ViewController.swift */,
+				4D570E8A1E3CB10800015EFE /* Main.storyboard */,
+				4D570E901E3CB10800015EFE /* Assets.xcassets */,
+				4D570E921E3CB10800015EFE /* LaunchScreen.storyboard */,
+				4D570E951E3CB10800015EFE /* Info.plist */,
+				4D570E8D1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodeld */,
+			);
+			path = "Hospital Wayfinder";
+			sourceTree = "<group>";
+		};
+		4D570E9D1E3CB10800015EFE /* Hospital WayfinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D570E9E1E3CB10800015EFE /* Hospital_WayfinderTests.swift */,
+				4D570EA01E3CB10800015EFE /* Info.plist */,
+			);
+			path = "Hospital WayfinderTests";
+			sourceTree = "<group>";
+		};
+		4D570EA81E3CB10800015EFE /* Hospital WayfinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D570EA91E3CB10800015EFE /* Hospital_WayfinderUITests.swift */,
+				4D570EAB1E3CB10800015EFE /* Info.plist */,
+			);
+			path = "Hospital WayfinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D570E821E3CB10800015EFE /* Hospital Wayfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D570EAE1E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital Wayfinder" */;
+			buildPhases = (
+				4D570E7F1E3CB10800015EFE /* Sources */,
+				4D570E801E3CB10800015EFE /* Frameworks */,
+				4D570E811E3CB10800015EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hospital Wayfinder";
+			productName = "Hospital Wayfinder";
+			productReference = 4D570E831E3CB10800015EFE /* Hospital Wayfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D570E991E3CB10800015EFE /* Hospital WayfinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D570EB11E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital WayfinderTests" */;
+			buildPhases = (
+				4D570E961E3CB10800015EFE /* Sources */,
+				4D570E971E3CB10800015EFE /* Frameworks */,
+				4D570E981E3CB10800015EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D570E9C1E3CB10800015EFE /* PBXTargetDependency */,
+			);
+			name = "Hospital WayfinderTests";
+			productName = "Hospital WayfinderTests";
+			productReference = 4D570E9A1E3CB10800015EFE /* Hospital WayfinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D570EA41E3CB10800015EFE /* Hospital WayfinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D570EB41E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital WayfinderUITests" */;
+			buildPhases = (
+				4D570EA11E3CB10800015EFE /* Sources */,
+				4D570EA21E3CB10800015EFE /* Frameworks */,
+				4D570EA31E3CB10800015EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D570EA71E3CB10800015EFE /* PBXTargetDependency */,
+			);
+			name = "Hospital WayfinderUITests";
+			productName = "Hospital WayfinderUITests";
+			productReference = 4D570EA51E3CB10800015EFE /* Hospital WayfinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D570E7B1E3CB10800015EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sam Knight";
+				TargetAttributes = {
+					4D570E821E3CB10800015EFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZNRLKX3AGV;
+						ProvisioningStyle = Automatic;
+					};
+					4D570E991E3CB10800015EFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZNRLKX3AGV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D570E821E3CB10800015EFE;
+					};
+					4D570EA41E3CB10800015EFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZNRLKX3AGV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D570E821E3CB10800015EFE;
+					};
+				};
+			};
+			buildConfigurationList = 4D570E7E1E3CB10800015EFE /* Build configuration list for PBXProject "Hospital Wayfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D570E7A1E3CB10800015EFE;
+			productRefGroup = 4D570E841E3CB10800015EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D570E821E3CB10800015EFE /* Hospital Wayfinder */,
+				4D570E991E3CB10800015EFE /* Hospital WayfinderTests */,
+				4D570EA41E3CB10800015EFE /* Hospital WayfinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D570E811E3CB10800015EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D570E941E3CB10800015EFE /* LaunchScreen.storyboard in Resources */,
+				4D570E911E3CB10800015EFE /* Assets.xcassets in Resources */,
+				4D570E8C1E3CB10800015EFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D570E981E3CB10800015EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D570EA31E3CB10800015EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D570E7F1E3CB10800015EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D570E8F1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodeld in Sources */,
+				4D570E891E3CB10800015EFE /* ViewController.swift in Sources */,
+				4D570E871E3CB10800015EFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D570E961E3CB10800015EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D570E9F1E3CB10800015EFE /* Hospital_WayfinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D570EA11E3CB10800015EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D570EAA1E3CB10800015EFE /* Hospital_WayfinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D570E9C1E3CB10800015EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D570E821E3CB10800015EFE /* Hospital Wayfinder */;
+			targetProxy = 4D570E9B1E3CB10800015EFE /* PBXContainerItemProxy */;
+		};
+		4D570EA71E3CB10800015EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D570E821E3CB10800015EFE /* Hospital Wayfinder */;
+			targetProxy = 4D570EA61E3CB10800015EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D570E8A1E3CB10800015EFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D570E8B1E3CB10800015EFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D570E921E3CB10800015EFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D570E931E3CB10800015EFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D570EAC1E3CB10800015EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D570EAD1E3CB10800015EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D570EAF1E3CB10800015EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				INFOPLIST_FILE = "Hospital Wayfinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-Wayfinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D570EB01E3CB10800015EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				INFOPLIST_FILE = "Hospital Wayfinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-Wayfinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4D570EB21E3CB10800015EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				INFOPLIST_FILE = "Hospital WayfinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-WayfinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hospital Wayfinder.app/Hospital Wayfinder";
+			};
+			name = Debug;
+		};
+		4D570EB31E3CB10800015EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				INFOPLIST_FILE = "Hospital WayfinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-WayfinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hospital Wayfinder.app/Hospital Wayfinder";
+			};
+			name = Release;
+		};
+		4D570EB51E3CB10800015EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				INFOPLIST_FILE = "Hospital WayfinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-WayfinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hospital Wayfinder";
+			};
+			name = Debug;
+		};
+		4D570EB61E3CB10800015EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZNRLKX3AGV;
+				INFOPLIST_FILE = "Hospital WayfinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "substrakthealth.Hospital-WayfinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hospital Wayfinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D570E7E1E3CB10800015EFE /* Build configuration list for PBXProject "Hospital Wayfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D570EAC1E3CB10800015EFE /* Debug */,
+				4D570EAD1E3CB10800015EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D570EAE1E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital Wayfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D570EAF1E3CB10800015EFE /* Debug */,
+				4D570EB01E3CB10800015EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D570EB11E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital WayfinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D570EB21E3CB10800015EFE /* Debug */,
+				4D570EB31E3CB10800015EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D570EB41E3CB10800015EFE /* Build configuration list for PBXNativeTarget "Hospital WayfinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D570EB51E3CB10800015EFE /* Debug */,
+				4D570EB61E3CB10800015EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D570E8D1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D570E8E1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodel */,
+			);
+			currentVersion = 4D570E8E1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodel */;
+			path = Hospital_Wayfinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D570E7B1E3CB10800015EFE /* Project object */;
+}
