@@ -19,6 +19,7 @@
 		4D6A950A1E3CBBD6001B26F1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */; };
 		4DCED8D91E3CCAB00011EC55 /* WaypointFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCED8D71E3CCAB00011EC55 /* WaypointFinder.swift */; };
 		4DCED8DA1E3CCAB00011EC55 /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCED8D81E3CCAB00011EC55 /* Waypoint.swift */; };
+		4DCED8DC1E3CD9390011EC55 /* AccessibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCED8DB1E3CD9390011EC55 /* AccessibleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		4DCED8D71E3CCAB00011EC55 /* WaypointFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointFinder.swift; sourceTree = "<group>"; };
 		4DCED8D81E3CCAB00011EC55 /* Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
+		4DCED8DB1E3CD9390011EC55 /* AccessibleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				4D6A95071E3CB365001B26F1 /* CameraViewController.swift */,
 				4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */,
+				4DCED8DB1E3CD9390011EC55 /* AccessibleViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				4DCED8DA1E3CCAB00011EC55 /* Waypoint.swift in Sources */,
 				4D6A95081E3CB365001B26F1 /* CameraViewController.swift in Sources */,
 				4D570E891E3CB10800015EFE /* ViewController.swift in Sources */,
+				4DCED8DC1E3CD9390011EC55 /* AccessibleViewController.swift in Sources */,
 				4D570E871E3CB10800015EFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
