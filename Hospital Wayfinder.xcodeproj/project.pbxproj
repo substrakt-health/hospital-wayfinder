@@ -17,6 +17,8 @@
 		4D570EAA1E3CB10800015EFE /* Hospital_WayfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D570EA91E3CB10800015EFE /* Hospital_WayfinderUITests.swift */; };
 		4D6A95081E3CB365001B26F1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A95071E3CB365001B26F1 /* CameraViewController.swift */; };
 		4D6A950A1E3CBBD6001B26F1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */; };
+		4DCED8D91E3CCAB00011EC55 /* WaypointFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCED8D71E3CCAB00011EC55 /* WaypointFinder.swift */; };
+		4DCED8DA1E3CCAB00011EC55 /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCED8D81E3CCAB00011EC55 /* Waypoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4D570EAB1E3CB10800015EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D6A95071E3CB365001B26F1 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ViewControllers/CameraViewController.swift; sourceTree = "<group>"; };
 		4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		4DCED8D71E3CCAB00011EC55 /* WaypointFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointFinder.swift; sourceTree = "<group>"; };
+		4DCED8D81E3CCAB00011EC55 /* Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		4D570E851E3CB10800015EFE /* Hospital Wayfinder */ = {
 			isa = PBXGroup;
 			children = (
+				4DCED8D61E3CCAA70011EC55 /* Models */,
 				4D6A95041E3CB33B001B26F1 /* ViewControllers */,
 				4D570E861E3CB10800015EFE /* AppDelegate.swift */,
 				4D570E881E3CB10800015EFE /* ViewController.swift */,
@@ -140,6 +145,15 @@
 				4D6A95091E3CBBD6001B26F1 /* ResultViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DCED8D61E3CCAA70011EC55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DCED8D71E3CCAB00011EC55 /* WaypointFinder.swift */,
+				4DCED8D81E3CCAB00011EC55 /* Waypoint.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCED8D91E3CCAB00011EC55 /* WaypointFinder.swift in Sources */,
 				4D6A950A1E3CBBD6001B26F1 /* ResultViewController.swift in Sources */,
 				4D570E8F1E3CB10800015EFE /* Hospital_Wayfinder.xcdatamodeld in Sources */,
+				4DCED8DA1E3CCAB00011EC55 /* Waypoint.swift in Sources */,
 				4D6A95081E3CB365001B26F1 /* CameraViewController.swift in Sources */,
 				4D570E891E3CB10800015EFE /* ViewController.swift in Sources */,
 				4D570E871E3CB10800015EFE /* AppDelegate.swift in Sources */,
