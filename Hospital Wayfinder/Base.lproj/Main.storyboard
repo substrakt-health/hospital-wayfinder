@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xf9-KX-Uqn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QO5-29-DCX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -160,7 +160,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="oPI-t3-gLF" kind="show" identifier="codeRead" id="Fc4-f9-1Qd"/>
+                        <segue destination="wlJ-H6-WL1" kind="show" identifier="codeRead" id="ypE-kk-eMh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VMQ-Zz-YBA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -168,34 +168,39 @@
             <point key="canvasLocation" x="3551.1999999999998" y="-96.7016491754123"/>
         </scene>
         <!--Result View Controller-->
-        <scene sceneID="t9y-4p-hTd">
+        <scene sceneID="B4c-lz-HHz">
             <objects>
-                <viewController id="oPI-t3-gLF" customClass="ResultViewController" customModule="Hospital_Wayfinder" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="wlJ-H6-WL1" customClass="ResultViewController" customModule="Hospital_Wayfinder" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXU-dC-VAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573" y="-87"/>
+        </scene>
+        <!--Floor Plan View Controller-->
+        <scene sceneID="dEe-7S-5Xc">
+            <objects>
+                <viewController storyboardIdentifier="floorPlanViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zpy-Wp-rqK" customClass="FloorPlanViewController" customModule="Hospital_Wayfinder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9Aj-tI-oPY"/>
-                        <viewControllerLayoutGuide type="bottom" id="tRJ-hv-UAY"/>
+                        <viewControllerLayoutGuide type="top" id="XVY-iI-aHn"/>
+                        <viewControllerLayoutGuide type="bottom" id="cUX-YA-EYU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gx7-Vh-pHj">
+                    <view key="view" contentMode="scaleToFill" id="zSi-Ao-gQ0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0T-uV-QQu">
-                                <rect key="frame" x="16" y="99" width="343" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gzc-Wu-F20">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="outputValueLabel" destination="O0T-uV-QQu" id="4ae-Wp-ovs"/>
+                        <outlet property="floorPlanImage" destination="gzc-Wu-F20" id="j8Z-Fj-kqn"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aLg-R0-mPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxd-1X-m5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4314.3999999999996" y="-96.7016491754123"/>
+            <point key="canvasLocation" x="3314.4000000000001" y="-82.3088455772114"/>
         </scene>
         <!--Scan-->
         <scene sceneID="0TI-Qe-B6N">
